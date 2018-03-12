@@ -1,0 +1,10 @@
+.user-container{
+    width: 400px;
+    margin: auto;
+}
+.user-item{
+    margin-bottom: 4px;
+}
+.user-item>span{
+    margin-right: 14px;
+}
