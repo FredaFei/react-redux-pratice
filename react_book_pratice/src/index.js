@@ -1,9 +1,9 @@
 // import React from 'react';
 // import ReactDOM from 'react-dom';
-import './index.css';
-import './user'
+// import './index.css';
+// import './user'
 
-
+import App from './hot'
 // import {LoadAndRefresh, Post} from './loadAndRefresh';
 
 // const App = LoadAndRefresh('/post')(Post)
@@ -25,3 +25,4 @@ import './user'
 
 // ReactDOM.render(<App />, document.getElementById('root'));
 // registerServiceWorker();
+

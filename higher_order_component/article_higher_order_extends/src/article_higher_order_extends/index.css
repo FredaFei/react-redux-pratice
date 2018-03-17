@@ -1,0 +1,9 @@
+.article-item{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-bottom: 1px solid #dadada;
+}
+.article-item span{
+    flex: 1;
+}
