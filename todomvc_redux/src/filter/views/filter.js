@@ -35,7 +35,7 @@ class Filters extends Component{
                 <Link filter={FilterTypes.COMPLATED}>{FilterTypes.COMPLATED}</Link>
                 <Link filter={FilterTypes.ACTIVE}>{FilterTypes.ACTIVE}</Link>
                 <span className="clear-all" onClick={onClearAllTodo}>clear all</span>
-                <button className={classList} onClick={this.handleAllChecked}>clear all</button>
+                <button className={classList} onClick={this.handleAllChecked}>check all</button>
             </div>
         )
     }
