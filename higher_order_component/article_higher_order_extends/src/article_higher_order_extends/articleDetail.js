@@ -14,7 +14,6 @@ class ArticleDetail extends Component{
     }
     render(){
         let {data} = this.state
-        if(!data){return <div>loading......</div>}
         return(
             <div>
                 <div>article details:</div>
@@ -25,5 +24,5 @@ class ArticleDetail extends Component{
     }
     
 }
-export default WithSubscription(ArticleDetail)
-// export default WithSubscription(ArticleDetail, api.getDetail())
+// export default WithSubscription(ArticleDetail)
+export default WithSubscription(ArticleDetail, api.getDetail())

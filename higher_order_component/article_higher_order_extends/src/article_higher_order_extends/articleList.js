@@ -21,7 +21,6 @@ class ArticleList extends Component{
             return (
             <div> 
                 {this.getChildName()}
-                <div>loading......</div>
             </div>)
         }
         return(

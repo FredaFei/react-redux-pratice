@@ -6,7 +6,6 @@ import withSubscription from './withSubscription.js'
 
 const ArticleList = (props)=>{
     let {data} = props
-    if(!data){return <div>loading......</div>}
     return(
         <ul>
             {
